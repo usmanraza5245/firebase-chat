@@ -88,7 +88,7 @@ function Header({ isModalOpen, setIsModalOpen, setRooms, setLoading }) {
         {/* <div>
           <StatusSvg />
         </div> */}
-        <div className="mr-1">
+        <div className="mr-3 flex items-center mb-[2px]">
           <button onClick={openUsersModal} className="flex items-center">
             <ChatSvg />
           </button>
