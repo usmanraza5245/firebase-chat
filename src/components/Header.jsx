@@ -85,10 +85,10 @@ function Header({ isModalOpen, setIsModalOpen, setRooms, setLoading }) {
       </div>
 
       <div className="flex">
-        <div>
+        {/* <div>
           <StatusSvg />
-        </div>
-        <div className="ml-4">
+        </div> */}
+        <div className="mr-1">
           <button onClick={openUsersModal} className="flex items-center">
             <ChatSvg />
           </button>
